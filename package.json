@@ -1,0 +1,31 @@
+{
+  "name": "restfulapi",
+  "version": "1.0.0",
+  "description": "a sample project to create restful api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frank269/TodoListApi.git"
+  },
+  "keywords": [
+    "RESTFull",
+    "api"
+  ],
+  "author": "TienDC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frank269/TodoListApi/issues"
+  },
+  "homepage": "https://github.com/frank269/TodoListApi#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.1.3"
+  }
+}
